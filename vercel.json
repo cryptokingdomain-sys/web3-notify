@@ -1,0 +1,8 @@
+{
+  "functions": {
+    "api/notify.js": { "runtime": "edge" }
+  },
+  "routes": [
+    { "src": "/api/notify", "dest": "api/notify.js" }
+  ]
+}
